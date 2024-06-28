@@ -1,11 +1,8 @@
-import AddStudent from "./AddStudent"
-
+import AddStudent from "./AddStudent";
+import Attendence from "./Attendence";
 
 const App = () => {
+  return <Attendence />;
+};
 
-  return (
-  <AddStudent/>
-  )
-}
-
-export default App
+export default App;
